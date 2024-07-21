@@ -1,0 +1,79 @@
+@font-face {
+    font-family: main ;
+    src: url('../webfonts/Quicksand-Regular.ttf');
+} 
+body{
+    font-family: main;
+}
+.offcanvas-body a{
+    text-decoration: none;
+    display: block;
+    padding-bottom: 50px;
+    color: white;
+
+}
+.home{
+    background: 
+    linear-gradient(
+        rgba(250, 3, 3, 0.5), 
+        rgba(250, 0, 0, 0.5)
+    ), 
+    url('../images/events-heavenly-header.jpg');
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 70px;
+}
+#open{
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.offcanvas{
+    --bs-offcanvas-width:200px;
+}
+.accordion{
+    margin-top: 110px;
+    margin-bottom: 90px;
+
+}
+.accordion-button{
+    --bs-accordion-active-bg: rgba(214, 46, 51 , 0.6);
+    background-color:   rgba(214, 46, 51 , 0.6); 
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+    --bs-accordion-active-color:white;
+
+}
+.accordion-body{
+background-color: #ccc;
+}
+.join{
+    background: 
+    linear-gradient(
+        rgba(250, 3, 3, 0.5), 
+        rgba(250, 0, 0, 0.5)
+    ), 
+    url('../images/free-unique-join-us-vectors.jpg');
+    height: 60vh;
+    
+}
+.box{
+    border: 1px solid white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.contact{
+    margin-top: 100px;
+}
+.fa-brands{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
